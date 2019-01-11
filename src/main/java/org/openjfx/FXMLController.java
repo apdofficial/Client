@@ -1,5 +1,8 @@
 package org.openjfx;
 
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -9,13 +12,20 @@ import java.util.Date;
 import java.util.ResourceBundle;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javafx.application.Platform;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
-import javafx.scene.control.TitledPane;
+import javafx.stage.Stage;
+
 
 public class FXMLController implements Initializable {
 
@@ -24,7 +34,6 @@ public class FXMLController implements Initializable {
     private XYChart.Series humidity_line = new XYChart.Series();
     private XYChart.Series luminosity_line = new XYChart.Series();
     private XYChart.Series pressure_line = new XYChart.Series();
-
 
     @FXML
     private TextField dateField;
@@ -42,7 +51,7 @@ public class FXMLController implements Initializable {
     public void setModel(Client client){
         this.client = client;
     }
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         lineChart_T.setLegendVisible(false);
@@ -54,16 +63,10 @@ public class FXMLController implements Initializable {
 
         //dummy data
         temperature_line.getData().add(new XYChart.Data( 05, 18));
-        lineChart_T.getData().add(temperature_line);
-
         humidity_line.getData().add(new XYChart.Data( 05, 14));
-        lineChart_H.getData().add(humidity_line);
-
         luminosity_line.getData().add(new XYChart.Data( 05, 10));
-        lineChart_L.getData().add(luminosity_line);
-
         pressure_line.getData().add(new XYChart.Data( 05, 7000));
-        lineChart_P.getData().add(pressure_line);
+
     }
 
     @FXML
@@ -91,7 +94,7 @@ public class FXMLController implements Initializable {
     }
 
     @FXML
-    private void getDeviceNames(){
+    private void getDeviceName(){
         String deviceNames= client.processRequest("DeviceNames");
         deviceName_text.setText("");
         deviceName_text.setText(deviceNames);
@@ -99,6 +102,7 @@ public class FXMLController implements Initializable {
 
     @FXML
     private void refreshData(){
+        getDeviceName();
         temperature();
         humidity();
         luminosity();
@@ -107,6 +111,7 @@ public class FXMLController implements Initializable {
         if(checkBox_h.isSelected())humidityLineChart();
         if(checkBox_l.isSelected())luminosityLineChart();
         if(checkBox_p.isSelected())pressureLineChart();
+
     }
 
     @FXML
@@ -114,7 +119,9 @@ public class FXMLController implements Initializable {
 
         if(checkBox_t.isSelected()){
             temperature_line.getData().add(new XYChart.Data( getTime(), getValue("Temperature")));
-
+            if(lineChart_T.getData().isEmpty()){
+                lineChart_T.getData().add(temperature_line);
+            }
         }
         else {
             lineChart_T.getData().remove(temperature_line);
@@ -124,6 +131,9 @@ public class FXMLController implements Initializable {
     private void humidityLineChart(){
         if(checkBox_h.isSelected()){
             humidity_line.getData().add(new XYChart.Data( getTime(), getValue("Humidity")));
+            if(lineChart_H.getData().isEmpty()){
+                lineChart_H.getData().add(humidity_line);
+            }
         }
         else {
             lineChart_H.getData().remove(humidity_line);
@@ -133,6 +143,9 @@ public class FXMLController implements Initializable {
     private void luminosityLineChart(){
         if(checkBox_l.isSelected()){
             luminosity_line.getData().add(new XYChart.Data( getTime(), getValue("Luminosity")));
+            if(lineChart_L.getData().isEmpty()){
+                lineChart_L.getData().add(luminosity_line);
+            }
         }
         else {
             lineChart_L.getData().remove(luminosity_line);
@@ -142,6 +155,9 @@ public class FXMLController implements Initializable {
     private void pressureLineChart(){
         if(checkBox_p.isSelected()){
             pressure_line.getData().add(new XYChart.Data( getTime(), getValue("Pressure")));
+            if(lineChart_P.getData().isEmpty()){
+                lineChart_P.getData().add(pressure_line);
+            }
         }
         else {
             lineChart_P.getData().remove(pressure_line);
@@ -179,7 +195,14 @@ public class FXMLController implements Initializable {
         date =dtf.format(now);
         return date;
     }
+    @FXML
+    private void terminateProgram(){
+        System.exit(0);
+    }
+
+
 }
+
 
 
 
