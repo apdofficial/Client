@@ -114,7 +114,6 @@ public class FXMLController implements Initializable {
 
         if(checkBox_t.isSelected()){
             temperature_line.getData().add(new XYChart.Data( getTime(), getValue("Temperature")));
-            lineChart_T.getData().add(temperature_line);
 
         }
         else {
@@ -125,7 +124,6 @@ public class FXMLController implements Initializable {
     private void humidityLineChart(){
         if(checkBox_h.isSelected()){
             humidity_line.getData().add(new XYChart.Data( getTime(), getValue("Humidity")));
-            lineChart_H.getData().add(humidity_line);
         }
         else {
             lineChart_H.getData().remove(humidity_line);
@@ -135,7 +133,6 @@ public class FXMLController implements Initializable {
     private void luminosityLineChart(){
         if(checkBox_l.isSelected()){
             luminosity_line.getData().add(new XYChart.Data( getTime(), getValue("Luminosity")));
-            lineChart_L.getData().add(luminosity_line);
         }
         else {
             lineChart_L.getData().remove(luminosity_line);
@@ -145,7 +142,6 @@ public class FXMLController implements Initializable {
     private void pressureLineChart(){
         if(checkBox_p.isSelected()){
             pressure_line.getData().add(new XYChart.Data( getTime(), getValue("Pressure")));
-            lineChart_P.getData().add(pressure_line);
         }
         else {
             lineChart_P.getData().remove(pressure_line);
