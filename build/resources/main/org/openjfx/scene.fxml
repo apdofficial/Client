@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FXMLController">
+   <children>
+      <VBox prefHeight="571.0" prefWidth="913.0">
+         <children>
+            <MenuBar prefHeight="19.0" prefWidth="942.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <AnchorPane prefHeight="527.0" prefWidth="915.0">
+               <children>
+                  <LineChart fx:id="lineChart_T" layoutX="21.0" layoutY="50.0" prefHeight="215.0" prefWidth="284.0">
+                    <xAxis>
+                      <NumberAxis label="Time in hours" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis label="Celsius" side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+                  <CheckBox fx:id="checkBox_t" layoutX="76.0" layoutY="32.0" mnemonicParsing="false" onAction="#temperatureLineChart" text="Temperature">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="checkBox_h" layoutX="394.0" layoutY="32.0" mnemonicParsing="false" onAction="#humidityLineChart" text="Humidity">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="checkBox_l" layoutX="394.0" layoutY="294.0" mnemonicParsing="false" onAction="#luminosityLineChart" text="Luminosity">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="checkBox_p" layoutX="76.0" layoutY="294.0" mnemonicParsing="false" onAction="#pressureLineChart" text="Pressure">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <Button layoutX="730.0" layoutY="445.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="43.0" prefWidth="142.0" text="Refresh data">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <TextField fx:id="temperature_text" layoutX="746.0" layoutY="62.0" prefHeight="27.0" prefWidth="113.0" />
+                  <TextField fx:id="humidity_text" layoutX="746.0" layoutY="98.0" prefHeight="27.0" prefWidth="113.0" />
+                  <TextField fx:id="luminosity_text" layoutX="744.0" layoutY="134.0" prefHeight="27.0" prefWidth="113.0" />
+                  <TextField fx:id="pressure_text" layoutX="744.0" layoutY="174.0" prefHeight="27.0" prefWidth="113.0" />
+                  <Label layoutX="655.0" layoutY="65.0" text="Temperature:" />
+                  <Label layoutX="680.0" layoutY="101.0" text="Humidity:" />
+                  <Label layoutX="668.0" layoutY="137.0" text="Luminosity:" />
+                  <Label layoutX="678.0" layoutY="177.0" text="Pressure:" />
+                  <Label layoutX="697.0" layoutY="13.0" text="Actual readings">
+                     <font>
+                        <Font name="Beirut Regular" size="22.0" />
+                     </font>
+                  </Label>
+                  <LineChart fx:id="lineChart_H" layoutX="336.0" layoutY="50.0" prefHeight="215.0" prefWidth="284.0">
+                     <xAxis>
+                        <NumberAxis label="Time in hours" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="percentage" side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <LineChart fx:id="lineChart_P" layoutX="21.0" layoutY="315.0" prefHeight="215.0" prefWidth="284.0">
+                     <xAxis>
+                        <NumberAxis label="Time in hours" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Pascal" side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <LineChart fx:id="lineChart_L" layoutX="336.0" layoutY="315.0" prefHeight="215.0" prefWidth="284.0">
+                     <xAxis>
+                        <NumberAxis label="Time in hours" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Lux" side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <Label layoutX="838.0" layoutY="67.0" text="°C" />
+                  <Label layoutX="841.0" layoutY="103.0" text="\%" />
+                  <Label layoutX="838.0" layoutY="179.0" text="Pa" />
+                  <Label layoutX="830.0" layoutY="139.0" text="Lux" />
+               </children></AnchorPane>
+         </children></VBox>
+   </children>
+</StackPane>

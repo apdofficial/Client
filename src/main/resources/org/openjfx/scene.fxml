@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FXMLController">
+   <children>
+      <VBox prefHeight="571.0" prefWidth="913.0">
+         <children>
+            <MenuBar prefHeight="19.0" prefWidth="942.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <AnchorPane prefHeight="527.0" prefWidth="915.0">
+               <children>
+                  <LineChart fx:id="lineChart_T" layoutX="21.0" layoutY="50.0" prefHeight="215.0" prefWidth="284.0">
+                    <xAxis>
+                      <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis label="Celsius" side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+                  <CheckBox fx:id="checkBox_t" layoutX="77.0" layoutY="32.0" mnemonicParsing="false" onAction="#temperatureLineChart" text="Temperature">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="checkBox_h" layoutX="395.0" layoutY="32.0" mnemonicParsing="false" onAction="#humidityLineChart" text="Humidity">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="checkBox_l" layoutX="395.0" layoutY="294.0" mnemonicParsing="false" onAction="#luminosityLineChart" text="Luminosity">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="checkBox_p" layoutX="77.0" layoutY="294.0" mnemonicParsing="false" onAction="#pressureLineChart" text="Pressure">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <Button layoutX="759.0" layoutY="462.0" mnemonicParsing="false" onAction="#refreshData" prefHeight="19.0" prefWidth="122.0" text="Refresh data">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <TextField fx:id="temperature_text" layoutX="748.0" layoutY="75.0" prefHeight="27.0" prefWidth="113.0" />
+                  <TextField fx:id="humidity_text" layoutX="748.0" layoutY="111.0" prefHeight="27.0" prefWidth="113.0" />
+                  <TextField fx:id="luminosity_text" layoutX="746.0" layoutY="147.0" prefHeight="27.0" prefWidth="113.0" />
+                  <TextField fx:id="pressure_text" layoutX="746.0" layoutY="187.0" prefHeight="27.0" prefWidth="113.0" />
+                  <Label layoutX="657.0" layoutY="78.0" text="Temperature:" />
+                  <Label layoutX="657.0" layoutY="114.0" text="Humidity:" />
+                  <Label layoutX="657.0" layoutY="152.0" text="Luminosity:" />
+                  <Label layoutX="657.0" layoutY="192.0" text="Pressure:" />
+                  <Label layoutX="660.0" layoutY="32.0" text="Most recent  data">
+                     <font>
+                        <Font name="Beirut Regular" size="22.0" />
+                     </font>
+                  </Label>
+                  <LineChart fx:id="lineChart_H" layoutX="336.0" layoutY="50.0" prefHeight="215.0" prefWidth="284.0">
+                     <xAxis>
+                        <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Percentage" side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <LineChart fx:id="lineChart_P" layoutX="21.0" layoutY="315.0" prefHeight="215.0" prefWidth="284.0">
+                     <xAxis>
+                        <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Pascal" side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <LineChart fx:id="lineChart_L" layoutX="336.0" layoutY="315.0" prefHeight="215.0" prefWidth="284.0">
+                     <xAxis>
+                        <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Lux" side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <Label layoutX="840.0" layoutY="80.0" text="°C" />
+                  <Label layoutX="843.0" layoutY="116.0" text="\%" />
+                  <Label layoutX="840.0" layoutY="192.0" text="Pa" />
+                  <Label layoutX="832.0" layoutY="152.0" text="Lux" />
+                  <Separator layoutX="659.0" layoutY="62.0" prefWidth="200.0" />
+                  <Label layoutX="657.0" layoutY="240.0" text="Today's date">
+                     <font>
+                        <Font name="Beirut Regular" size="22.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="660.0" layoutY="266.0" prefWidth="200.0" />
+                  <TextField fx:id="dateField" alignment="BOTTOM_LEFT" editable="false" layoutX="658.0" layoutY="278.0" prefHeight="40.0" prefWidth="200.0">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </TextField>
+               </children></AnchorPane>
+         </children></VBox>
+   </children>
+</StackPane>
