@@ -6,8 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca756de-7fa4-4391-bd46-e47c144c0e30" name="Default Changelist" comment="Final update">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3ca756de-7fa4-4391-bd46-e47c144c0e30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -75,12 +74,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -132,7 +131,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547543701146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547543906719" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -253,7 +252,7 @@
       <workItem from="1547379694279" duration="247000" />
       <workItem from="1547530305852" duration="135000" />
       <workItem from="1547530489553" duration="433000" />
-      <workItem from="1547540859234" duration="1764000" />
+      <workItem from="1547540859234" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed the exeptions">
       <created>1547194186930</created>
@@ -269,11 +268,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547212515642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed time to minutes">
+      <created>1547543699583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543699583</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commanted dummy data">
+      <created>1547543844656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543844656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30475000" />
+    <option name="totallyTimeSpent" value="30890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,7 +340,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed the exeptions" />
     <MESSAGE value="Final update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final update" />
+    <MESSAGE value="Changed time to minutes" />
+    <MESSAGE value="Commanted dummy data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commanted dummy data" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/styles.css">
@@ -422,14 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -437,6 +444,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
