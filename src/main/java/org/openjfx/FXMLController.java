@@ -62,10 +62,10 @@ public class FXMLController implements Initializable {
 
 
         //dummy data
-        temperature_line.getData().add(new XYChart.Data( 05, 18));
-        humidity_line.getData().add(new XYChart.Data( 05, 14));
-        luminosity_line.getData().add(new XYChart.Data( 05, 10));
-        pressure_line.getData().add(new XYChart.Data( 05, 7000));
+//        temperature_line.getData().add(new XYChart.Data( 05, 18));
+//        humidity_line.getData().add(new XYChart.Data( 05, 14));
+//        luminosity_line.getData().add(new XYChart.Data( 05, 10));
+//        pressure_line.getData().add(new XYChart.Data( 05, 7000));
 
     }
 
@@ -166,7 +166,7 @@ public class FXMLController implements Initializable {
 
     private double getTime(){
         double time_d= 0.0;
-        DateFormat dateFormat = new SimpleDateFormat("HH");
+        DateFormat dateFormat = new SimpleDateFormat("mm");
         Date date = new Date();
         Matcher time_m = Pattern.compile("(?!=\\d\\.\\d\\.)([\\d.]+)").matcher(dateFormat.format(date));
 
