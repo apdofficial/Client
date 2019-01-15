@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.chart.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.Button?>
@@ -20,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FXMLController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FXMLController">
    <children>
       <VBox prefHeight="571.0" prefWidth="913.0">
          <children>
@@ -37,7 +32,7 @@
                <children>
                   <LineChart fx:id="lineChart_T" layoutX="21.0" layoutY="50.0" prefHeight="215.0" prefWidth="284.0">
                     <xAxis>
-                      <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                      <NumberAxis label="Time in minutes" side="BOTTOM" />
                     </xAxis>
                     <yAxis>
                       <NumberAxis label="Celsius" side="LEFT" />
@@ -78,7 +73,7 @@
                   </Label>
                   <LineChart fx:id="lineChart_H" layoutX="336.0" layoutY="50.0" prefHeight="215.0" prefWidth="284.0">
                      <xAxis>
-                        <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                        <NumberAxis label="Time in minutes" side="BOTTOM" />
                      </xAxis>
                      <yAxis>
                         <NumberAxis label="Percentage" side="LEFT" />
@@ -86,7 +81,7 @@
                   </LineChart>
                   <LineChart fx:id="lineChart_P" layoutX="21.0" layoutY="315.0" prefHeight="215.0" prefWidth="284.0">
                      <xAxis>
-                        <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                        <NumberAxis label="Time in minutes" side="BOTTOM" />
                      </xAxis>
                      <yAxis>
                         <NumberAxis label="Pascal" side="LEFT" />
@@ -94,7 +89,7 @@
                   </LineChart>
                   <LineChart fx:id="lineChart_L" layoutX="336.0" layoutY="315.0" prefHeight="215.0" prefWidth="284.0">
                      <xAxis>
-                        <NumberAxis label="Time in hours/Day" side="BOTTOM" />
+                        <NumberAxis label="Time in minutes" side="BOTTOM" />
                      </xAxis>
                      <yAxis>
                         <NumberAxis label="Lux" side="LEFT" />
