@@ -15,6 +15,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<!--
+ *  main scene
+ *
+ * The visual GUI code.
+ *
+ * @author Group 3
+ * @version 0.1
+-->
+
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.FXMLController">
    <children>
       <VBox prefHeight="571.0" prefWidth="913.0">

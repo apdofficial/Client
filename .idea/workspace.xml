@@ -7,7 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca756de-7fa4-4391-bd46-e47c144c0e30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/org/openjfx/scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/org/openjfx/scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,12 +35,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-721">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -50,57 +105,98 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/Client.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/src/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/openjfx/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/org/openjfx/about.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="20" />
+    <option name="width" value="960" />
+    <option name="height" value="994" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hellofx" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hellofx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hellofx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="openjfx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="openjfx" type="462c0819:PsiDirectoryNode" />
@@ -114,11 +210,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547545190704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547713354409" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.35584676" />
+    <property name="project.structure.side.proportion" value="0.2978355" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -288,10 +384,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23819743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -300,11 +396,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33147943" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33144477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -312,6 +408,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32891566" />
+      <window_info anchor="bottom" id="SonarLint" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,13 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20149">
-          <caret line="439" column="13" selection-start-line="439" selection-start-column="13" selection-end-line="439" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/text/SimpleDateFormat.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -392,54 +483,53 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/about.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/org/openjfx/scene.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-721">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="408">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +568,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35584676" />
+                <option value="0.2978355" />
               </list>
             </option>
           </splitter-proportions>
@@ -486,11 +576,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35584676" />
+                <option value="0.2978355" />
               </list>
             </option>
           </splitter-proportions>
@@ -510,11 +600,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: org.openjfx:javafx-graphics:11.0.1</last-edited>
+          <last-edited>mysql:mysql-connector-java:8.0.13</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35584676" />
+                <option value="0.2978355" />
               </list>
             </option>
           </splitter-proportions>
