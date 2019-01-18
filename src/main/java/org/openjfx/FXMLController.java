@@ -51,14 +51,7 @@ public class FXMLController implements Initializable {
         lineChart_P.setLegendVisible(false);
         dateField.setText(getDate());
 
-
-        //dummy data
-//        temperature_line.getData().add(new XYChart.Data( 05, 18));
-//        humidity_line.getData().add(new XYChart.Data( 05, 14));
-//        luminosity_line.getData().add(new XYChart.Data( 05, 10));
-//        pressure_line.getData().add(new XYChart.Data( 05, 7000));
-
-    }
+   }
 
     @FXML
     private void temperature(){

@@ -21,6 +21,7 @@ javafx {
 mainClassName = 'org.openjfx.MainApp'
 
 mainClassName='javafx11.Main'
+
 jar {
     manifest {
         attributes 'Main-Class': 'javafx11.Main'
