@@ -1,8 +1,12 @@
 package org.openjfx;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.io.IOException;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.chart.LineChart;
+import javafx.scene.chart.XYChart;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.TextField;
+
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -12,19 +16,6 @@ import java.util.Date;
 import java.util.ResourceBundle;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import javafx.application.Platform;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.chart.LineChart;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.chart.XYChart;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextField;
-import javafx.stage.Stage;
 
 
 public class FXMLController implements Initializable {
